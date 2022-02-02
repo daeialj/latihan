@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Paragraf HTML</title>
+</head>
+<body>
+	<!-- contoh tag p, br, hr, strong dan em -->
+<p>Ini paragraf 1 yaa</p>
+<p>Ini paragraf 2</p>
+<hr>
+
+<p><b>Selamat datang</b> <i>di planet mars</i></p>
+<br>
+<hr>
+<p><strong>Halo Semuanya</strong> <em>Perkenalkan teman baru saya</em></p>
+</body>
+</html>
