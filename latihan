@@ -3,17 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Paragraf HTML</title>
+	<title>Heading yaa</title>
 </head>
 <body>
-	<!-- contoh tag p, br, hr, strong dan em -->
-<p>Ini paragraf 1 yaa</p>
-<p>Ini paragraf 2</p>
+<h1>Judul Utamanya, Contoh: Aku Ingin Bisa Coding</h1>
+<p>Isi artikelnya atau tipsnya, contoh: makanya belajar coding</p>
 <hr>
-
-<p><b>Selamat datang</b> <i>di planet mars</i></p>
-<br>
-<hr>
-<p><strong>Halo Semuanya</strong> <em>Perkenalkan teman baru saya</em></p>
+<h3>Hal yang harus dipelajari</h3>
+<p>Yaitu adalah bahasa dan ketekunan</p>
 </body>
 </html>
