@@ -3,13 +3,31 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Heading yaa</title>
+	<title>Contoh list HTML</title>
 </head>
 <body>
-<h1>Judul Utamanya, Contoh: Aku Ingin Bisa Coding</h1>
-<p>Isi artikelnya atau tipsnya, contoh: makanya belajar coding</p>
+<h3>Contoh Cita-cita saya pada zaman dulu</h3>
+<ol>
+	<li>Presiden</li>
+	<li>Polisi</li>
+	<li>Direktur Utama</li>
+</ol>
 <hr>
-<h3>Hal yang harus dipelajari</h3>
-<p>Yaitu adalah bahasa dan ketekunan</p>
+
+<h3>tetapi Hobi saya diantaranya adalah</h3>
+<ul>
+	<li>Membaca</li>
+	<li>Menulis</li>
+	<li>Bermain</li>
+</ul>
+<hr>
+
+<h3>Hal yang perlu di tekuni</h3>
+<dl>
+	<dt>Disiplin</dt>
+	<dd>Tertib dengan apa yang sudah menjadi komitmen</dd>
+	<dt>Konsekuen</dt>
+	<dd>Tidak plinplan dan siap bertanggung jawab</dd>
+</dl>
 </body>
 </html>
