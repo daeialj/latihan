@@ -1,12 +1,24 @@
-h1	{
-	color: blue;
+body {
+	background-color: gold;
 	font-family: sans-serif;
-	text-align: center;
-	font-size: 200;
-	background: greenyellow;
 }
-p	{
-	color: black;
+h1, h2 {
 	font-family: sans-serif;
+	color: blueviolet;
+}
+ul li a {
+	color: black;
+	text-decoration: none;
+}
+ol li a {
+	color: white;
+	text-decoration: none;
+}
+.p1 {
+	color: rosybrown;
+	text-align: justify;
+}
+.p2 {
+	color: red;
 	text-align: justify;
 }
