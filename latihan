@@ -3,85 +3,50 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contoh list HTML</title>
+	<title>HTML Form komplit</title>
 </head>
 <body>
-<h3>Contoh Cita-cita saya pada zaman dulu</h3>
-<ol>
-	<li>Presiden</li>
-	<li>Polisi</li>
-	<li>Direktur Utama</li>
-</ol>
-<hr>
-
-<h3>tetapi Hobi saya diantaranya adalah</h3>
-<ul>
-	<li>Membaca</li>
-	<li>Menulis</li>
-	<li>Bermain</li>
-</ul>
-<hr>
-
-<h3>Hal yang perlu di tekuni</h3>
-<dl>
-	<dt>Disiplin</dt>
-	<dd>Tertib dengan apa yang sudah menjadi komitmen</dd>
-	<dt>Konsekuen</dt>
-	<dd>Tidak plinplan dan siap bertanggung jawab</dd>
-</dl>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Table Merger</title>
-</head>
-<body>
-<table border="1" cellspacing="0" cellpadding="5">
-	<tr>
-		<td rowspan="3">1</td>
-		<td colspan="2">2</td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>2</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>3</td>
-	</tr>
-</table>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Form Html</title>
-</head>
-<body>
+<h1>Ketikan Biodata Anda Disini</h1>
 <form>
-<label for="username">Username :</label>
-<input type="text" id="username">
-<br>
-<label for="password">password :</label>
-<input type="password" id="password">
-<br>
-<input type="radio" name="jeniskelamin" id="Pria"><label for="Pria">Pria</label>
-<input type="radio" name="jeniskelamin" id="Wanita"><label for="Wanita">Wanita</label>
-<br>
-<label>Hobi</label>
-<br>
-<input type="checkbox" id="Membaca"><label for="membaca">Membaca</label>
-<input type="checkbox" id="Menulis"><label for="Menulis">Menulis</label>
-<input type="checkbox" id="Bermain"><label for="Bermain">Bermain</label>
-<br>
-<button type="submit">kirimmmmm</button>
+	<table>
+		<tr>
+			<td><label for="username">Username</label></td>
+			<td><input type="text" id="username"></td>
+		</tr>
+		<tr>
+			<td><label for="password">Password</label></td>
+			<td><input type="password" id="password"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+				<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label></center>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Hobi</label></td>
+			<td>
+				<input type="checkbox" id="Bermain"><label for="Bermain">Bermain</label>
+				<input type="checkbox" id="Membaca"><label for="Membaca">Membaca</label>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Domisili</label></td>
+			<td>
+			<select>
+				<option>Jakarta</option>
+				<option>Yogyakarta</option>
+				<option>Klaten</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><label>Statement</label></td>
+			<td><textarea></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2"><center><button type="submit">Kirim Dong!</button></center></td>
+		</tr>
+	</table>
 </form>
 </body>
 </html>
