@@ -56,3 +56,32 @@
 </table>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Html</title>
+</head>
+<body>
+<form>
+<label for="username">Username :</label>
+<input type="text" id="username">
+<br>
+<label for="password">password :</label>
+<input type="password" id="password">
+<br>
+<input type="radio" name="jeniskelamin" id="Pria"><label for="Pria">Pria</label>
+<input type="radio" name="jeniskelamin" id="Wanita"><label for="Wanita">Wanita</label>
+<br>
+<label>Hobi</label>
+<br>
+<input type="checkbox" id="Membaca"><label for="membaca">Membaca</label>
+<input type="checkbox" id="Menulis"><label for="Menulis">Menulis</label>
+<input type="checkbox" id="Bermain"><label for="Bermain">Bermain</label>
+<br>
+<button type="submit">kirimmmmm</button>
+</form>
+</body>
+</html>
